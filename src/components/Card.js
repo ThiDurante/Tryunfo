@@ -46,31 +46,40 @@ class Card extends React.Component {
 
         </p>
         <p className="card-att" data-testid="attr1-card">
-          <span>
+          <span className="tags">
             STR
           </span>
-          ................................................
-          <span>
+          <span
+            className="bar-str"
+            style={ { width: `${cardAttr1}%` } }
+          />
+          <span className="tags">
             { cardAttr1 }
 
           </span>
         </p>
         <p className="card-att" data-testid="attr1-card">
-          <span>
+          <span className="tags">
             AGI
           </span>
-          ................................................
-          <span>
+          <span
+            className="bar-agi"
+            style={ { width: `${cardAttr2}%` } }
+          />
+          <span className="tags">
             { cardAttr2 }
 
           </span>
         </p>
         <p className="card-att" data-testid="attr1-card">
-          <span>
+          <span className="tags">
             KI
           </span>
-          ................................................
-          <span>
+          <span
+            className="bar-ki"
+            style={ { width: `${cardAttr3}%` } }
+          />
+          <span className="tags">
             { cardAttr3 }
 
           </span>

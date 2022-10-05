@@ -91,6 +91,16 @@ const presetCards = [
     cardRare: 'raro',
     cardTrunfo: false,
   },
+  {
+    cardName: 'Goku UI',
+    cardDescription: 'Superando o nível dos Deuses!!',
+    cardAttr1: '90',
+    cardAttr2: '90',
+    cardAttr3: '90',
+    cardImage: 'https://assets.reedpopcdn.com/dxzrdjyu0aatk94.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/dxzrdjyu0aatk94.jpg',
+    cardRare: 'Muito Raro',
+    cardTrunfo: false,
+  },
 ];
 
 export default presetCards;
