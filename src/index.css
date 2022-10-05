@@ -3,7 +3,7 @@
   --primary: rgb(248, 246, 143)
   --secundary:rgba(254, 255, 205, 0.527)
   --green-dark: #036b52;
-  --green-light: #6acea1;
+  --green-light: #3ace8b;
   --blue: #006dfb;
   --purple: #41197f;
   --black: #222;
@@ -124,7 +124,22 @@ code {
   border-bottom: var(--border);
 }
 
-.card-att span {
+.bar-str {
+  width: 1%;
+  background-color: var(--red-dark);
+}
+
+.bar-agi {
+  width: 1%;
+  background-color: var(--green-light);
+}
+
+.bar-ki {
+  width: 1%;
+  background-color: var(--blue);
+}
+
+.tags {
   width: 14%;
   text-align: center;
   border: var(--border);
@@ -363,6 +378,8 @@ code {
   border: var(--border);
   padding: 20px;
 } */
+
+
 
 
 @media (min-width: 600px) {
