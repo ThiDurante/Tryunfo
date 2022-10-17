@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from './components/Card';
-import Form from './components/Form';
-import presetCards from './components/Cardsarray';
+import Card from '../components/Card';
+import Form from '../components/Form';
+import presetCards from '../data/Cardsarray';
 
 const stateInicial = {
   cardName: '',
