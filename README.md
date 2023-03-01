@@ -7,4 +7,4 @@ O projeto foi muito interessante para entender melhor com funciona o setState do
 Ainda está faltando a implementação do jogo e rotas
 
 
-Link para visualização: [Tryunfo](https://tryunfo-thidurante.vercel.app/)
+Link para visualização: [Tryunfo](https://tryunfo-thidurante.vercel.app/cards)
